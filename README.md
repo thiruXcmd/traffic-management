@@ -19,13 +19,6 @@ This project demonstrates an **AI-powered adaptive traffic management system** t
 ├── object detection.py # Standalone vehicle detection + visualization
 ├── visualizer.py # Pygame-based traffic signal simulation
 └── README.md # Project documentation
-
-## Requirements
-Install dependencies before running:
-```bash
-pip install ultralytics pygame matplotlib
-Note: RT-DETR model (rtdetr-l.pt) will be automatically downloaded by Ultralytics on first run.
-
 Usage
 1. Vehicle Detection Test
 python "object detection.py"
@@ -49,3 +42,10 @@ Data logging for long-term analytics.
 Web dashboard (Flask/React + charts).
 
 Developed by Thiru
+
+## Requirements
+Install dependencies before running:
+```bash
+pip install ultralytics pygame matplotlib
+Note: RT-DETR model (rtdetr-l.pt) will be automatically downloaded by Ultralytics on first run.
+
